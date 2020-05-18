@@ -1,0 +1,270 @@
+/*
+ * Globals
+ */
+
+ body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    color: black;
+    background-color: #E5E5E5;
+    /*background-color: #ffcdd2;*/
+    overflow-x: hidden; 
+    border-bottom: 5px soild black;
+  }
+  .website-max-width{
+    width:970px !important;
+    margin:auto 255px auto 235px;
+  }
+  h1, .h1,
+  h2, .h2,
+  h3, .h3,
+  h4, .h4,
+  h5, .h5,
+  h6, .h6 {
+    margin-top: 0;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: normal;
+    color: black;
+  }
+  
+  
+  /*
+   * Override Bootstrap's default container.
+   */
+  
+  @media (min-width: 1200px) {
+    .container {
+      width: 970px;
+    }
+  }
+  
+  
+  /*
+   * Masthead for nav
+   */
+  
+  .blog-masthead {
+    margin-top: 24px !important;
+
+  }
+  /*Nav 
+  .blog-nav{
+
+  }*/
+  /* Nav links */
+  .blog-nav-item {
+    height: 19px;
+    position: relative;
+    display: inline-block;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    color: black;
+    margin-right: 46px;
+    margin-top: 13px;/*9*/
+    line-height: 134.5%;
+    
+  }
+  .blog-nav-item:hover,
+  .blog-nav-item:focus {
+    color: #fff;
+    text-decoration: none;
+  }
+  /*Logo */
+  .navbar-left{
+    margin-top:2px;
+    margin-left: -15px !important;
+    margin-right: 275px !important;
+  }
+  /*Nav Button*/
+  .button-nav{
+    width:69px;
+    height: 42px;
+    position: relative;
+    float: right;
+    background-color: #1DB954;
+    border-radius: 3px;
+  color: white;
+  padding: 13px 20px 14px 19px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 14px;
+  cursor: pointer;
+  font-family: Graphik;
+  font-style: normal;
+  font-weight: normal;
+  line-height: 15px;
+  margin-right: -15px;
+  }
+
+    
+  /*
+   * Blog name and description
+   */
+  
+  .blog-title {
+    position: absolute;
+    width: 518px;
+    height: 109px;
+    left: 461px;
+    top: 123px;
+    
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
+    line-height: 54px;
+    
+    /* or 136% */
+    text-align: center;
+    
+    color: #000000;
+  }
+  .blog-description {
+    position: absolute;
+    width: 500px;
+    height: 42px;
+    left: 470px;
+    top: 247px;
+    font-family: Graphik;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 21px;
+    /* or 150% */
+    text-align: center;
+    color: #000000;
+  }
+
+
+  .no-border {
+    /*border: 0;*/
+    box-shadow: none; /* You may want to include this as bootstrap applies these styles too */
+}
+  /* Bootstrap 3 text input with search icon */
+
+.searchText {
+  position: absolute;
+width: 345px;
+height: 43px;
+left: 547px;
+top: 353px;
+background: #FFFFFF;
+border-radius: 3px;
+}
+.form-control-input ,.searchBtn{
+  height: 43px;
+}
+.form-control-input {
+  padding-top: 6px;
+  
+}
+
+.searchBtn{
+  background: #000000;
+  color: white;
+}
+
+.header_wrapper{
+  position: absolute;
+  background: #FFCDD2;
+  height: 521px;
+}
+
+/**Posts*/
+
+.container-posts{
+  position: absolute;
+  top: 465px;
+  left: 235px;
+}
+
+.card-body {
+  max-height: 107px;
+}
+
+.card-title{
+  margin-left: -20px;
+  text-align: center;
+  font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 18px;
+align-items: flex-end;
+
+color: #000000;
+}
+
+.card-text{
+  font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 10px;
+line-height: 11px;
+display: flex;
+align-items: flex-end;
+
+color: #999999;
+}
+
+.container-posts-2{
+  position: absolute;
+left: 235px;
+top: 959px;
+}
+
+.container-posts-3{
+  position: absolute;
+left: 235px;
+top: 1453px;
+}
+
+  /* Load More */
+.LoadMoreBtn{
+  
+position: absolute;
+width: 89px;
+height: 35px;
+left: 676px;
+top: 1989px;
+background-color: #ECEDFF;
+border-radius: 3px;
+color: #1A73E8;
+padding: 11px 15px 11px 14px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-family: Graphik;
+font-style: normal;
+font-weight: normal;
+font-size: 12px;
+line-height: 13px;
+align-items: flex-end;
+}
+
+
+.footer-line{
+  /* Line 1 */
+
+position: absolute;
+width: 970px;
+height: 0px;
+left: 235px;
+top: 2086px;
+
+border: 1px solid #C6C6C6;
+}
+/*Footer */
+
+.FooterLogo{
+  
+position: absolute;
+width: 24px;
+height: 24px;
+left: 235px;
+top: 2121px;
+
+background: url(img/nav_logo.png);
+}
